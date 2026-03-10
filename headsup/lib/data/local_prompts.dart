@@ -1,0 +1,30 @@
+import '../domain/models/clue.dart';
+
+/// Minimal offline deck so the game works without a backend.
+final List<Clue> localClues = [
+  const Clue(id: '1', title: 'Harry Potter', category: 'Filme'),
+  const Clue(id: '2', title: 'Einhorn reiten', category: 'Aktionen'),
+  const Clue(id: '3', title: 'DJ lernen', category: 'Berufe'),
+  const Clue(id: '4', title: 'Schach', category: 'Spiele'),
+  const Clue(id: '5', title: 'Pizza backen', category: 'Essen'),
+  const Clue(id: '6', title: 'Mount Everest', category: 'Orte'),
+  const Clue(id: '7', title: 'Super Mario', category: 'Games'),
+  const Clue(id: '8', title: 'Taylor Swift', category: 'Musik'),
+  const Clue(id: '9', title: 'Yoga', category: 'Hobbies'),
+  const Clue(id: '10', title: 'Tesla fahren', category: 'Technik'),
+  const Clue(id: '11', title: 'Karaoke', category: 'Party'),
+  const Clue(id: '12', title: 'E-Scooter', category: 'Mobilität'),
+  const Clue(id: '13', title: 'Rap Battle', category: 'Musik'),
+  const Clue(id: '14', title: 'Zeitreise', category: 'Sci-Fi'),
+  const Clue(id: '15', title: 'Kompass', category: 'Outdoor'),
+  const Clue(id: '16', title: 'Origami', category: 'Kreativität'),
+  const Clue(id: '17', title: 'Astronaut', category: 'Berufe'),
+  const Clue(id: '18', title: 'Netflix', category: 'Alltag'),
+  const Clue(id: '19', title: 'Vulkan', category: 'Natur'),
+  const Clue(id: '20', title: 'Street Food', category: 'Essen'),
+  const Clue(id: '21', title: 'Bouldern', category: 'Sport'),
+  const Clue(id: '22', title: 'Zeppelin', category: 'Historisch'),
+  const Clue(id: '23', title: 'Coding Bootcamp', category: 'Tech'),
+  const Clue(id: '24', title: 'Drachen steigen', category: 'Kindheit'),
+  const Clue(id: '25', title: 'Vinyl sammeln', category: 'Retro'),
+];
